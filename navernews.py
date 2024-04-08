@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-search_query = "삼쩜삼"
+search_query = "핀다"
 search_url = f"https://search.naver.com/search.naver?where=news&query={search_query}"
 
 chrome_options = webdriver.ChromeOptions()
